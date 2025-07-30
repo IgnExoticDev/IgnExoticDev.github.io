@@ -1,44 +1,39 @@
 <?php
-$instance['hypixel'] = array_merge($instance['hypixel'], array(
+$instance['BetaTest'] = array_merge($instance['BetaTest'], array(
     "loadder" => array(
-        "minecraft_version" => "1.8.9",
+        "minecraft_version" => "1.20.1",
         "loadder_type" => "forge",
         "loadder_version" => "latest"
     ),
     "verify" => true,
     "ignored" => array(
-        'config',
-        'essential',
         'logs',
-        'resourcepacks',
-        'saves',
-        'screenshots',
-        'shaderpacks',
-        'W-OVERFLOW',
-        'options.txt',
-        'optionsof.txt'
+        'screenshots'
     ),
     "whitelist" => array(),
     "whitelistActive" => false,
     "status" => array(
-        "nameServer" => "Hypixel",
+        "nameServer" => "BetaTest",
         "ip" => "mc.hypixel.net",
         "port" => 25565
     )
 ));
 
-$instance['PokeMoonX'] = array_merge($instance['PokeMoonX'], array(
+$instance['Juicio'] = array_merge($instance['Juicio'], array(
     "loadder" => array(
-        "minecraft_version" => "1.16.5",
+        "minecraft_version" => "1.20.1",
         "loadder_type" => "forge",
-        "loadder_version" => "1.16.5-36.2.35"
+        "loadder_version" => "latest"
     ),
     "verify" => false,
     "ignored" => array(),
-    "whitelist" => array(),
-    "whitelistActive" => false,
+    "whitelist" => array(
+        'IgnExotiic',
+        'MaxG_MC'
+    ),
+    "whitelistActive" => true,
     "status" => array(
-        "nameServer" => "PokeMoonX",
+        "nameServer" => "Juicio",
         "ip" => "178.32.106.234",
         "port" => 25599
     )
