@@ -1,5 +1,5 @@
 <?php
-$instance['BetaTest'] = array_merge($instance['BetaTest'], array(
+$instance['betatest'] = array_merge($instance['betatest'], array(
     "loadder" => array(
         "minecraft_version" => "1.20.1",
         "loadder_type" => "forge",
@@ -8,7 +8,7 @@ $instance['BetaTest'] = array_merge($instance['BetaTest'], array(
     "verify" => true,
     "ignored" => array(
         'logs',
-        'screenshots'
+        'screenshots',
     ),
     "whitelist" => array(),
     "whitelistActive" => false,
@@ -19,7 +19,7 @@ $instance['BetaTest'] = array_merge($instance['BetaTest'], array(
     )
 ));
 
-$instance['Juicio'] = array_merge($instance['Juicio'], array(
+$instance['juicio'] = array_merge($instance['juicio'], array(
     "loadder" => array(
         "minecraft_version" => "1.20.1",
         "loadder_type" => "forge",
@@ -29,7 +29,7 @@ $instance['Juicio'] = array_merge($instance['Juicio'], array(
     "ignored" => array(),
     "whitelist" => array(
         'IgnExotiic',
-        'MaxG_MC'
+        'MaxG_MC',
     ),
     "whitelistActive" => true,
     "status" => array(
